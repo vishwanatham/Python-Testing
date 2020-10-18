@@ -23,6 +23,12 @@ __pytest__
 __nose__
 
 
+### Mocking
+  Mocking can be used to isolate the dependencies by replacing them with mocked objects.
+  [unittest.mock](https://docs.python.org/3/library/unittest.mock.html) is one such library in python which helps achieving this.
+
+  [mocking](https://github.com/vishwanatham/Python-Testing/tree/main/mocking) folder has examples on how this can be achieved.
+
 ### Test Coverage
 
   [Coverage](https://coverage.readthedocs.io/) module can be used to check the code coverage and generate the reports for the same. These reports basiscally explain which part of the code has been tested and which isn't. 
