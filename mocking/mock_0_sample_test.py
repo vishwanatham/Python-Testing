@@ -2,7 +2,7 @@ from unittest import mock
 
 
 class MockSample:
-    
+
     def func1(self):
         # some line 1
         # some line 2

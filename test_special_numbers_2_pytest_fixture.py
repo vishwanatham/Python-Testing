@@ -1,22 +1,24 @@
-import sys
-sys.path.insert(1,'.')
-import SpecialNumbers as sn
 import pytest
+import SpecialNumbers as sn
 
 # Params for fixture
 # scope (session, package, module, class, function*)
 # params
-# autouse (True, False*) 
+# autouse (True, False*)
 # *Default
+
+
 @pytest.fixture()
 def setup():
     print("setup")
 
+
 def test_reverse(setup):
     assert "321" == sn.reverse("123")
 
+
 @pytest.mark.usefixtures("setup")
-def test_polyndrome():    
+def test_polyndrome():
     assert True == sn.is_polyndrome(121)
 
 
