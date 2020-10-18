@@ -1,0 +1,1 @@
+print("lenght is", len([1,23]))
