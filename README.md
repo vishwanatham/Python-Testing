@@ -26,4 +26,9 @@ __nose__
 
     
 
+### To use this
 
+    1. Install python 3, or above
+    2. Add that to your path valriable
+    3. Run "pip install -r requirements.txt" in root directory
+    4. Run "pytest -v -s" to check the result of test cases
